@@ -8,6 +8,7 @@ public class BlockchainLedger {
         chain.add(new Block("0", "Genesis Block", System.currentTimeMillis()));
     }
 
+
     public Block getLastBlock() {
         return chain.get(chain.size() - 1);
     }
